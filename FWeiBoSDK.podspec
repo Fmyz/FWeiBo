@@ -80,8 +80,8 @@ Pod::Spec.new do |s|
   s.source       = { :git => "https://github.com/Fmyz/FWeiBoSDK.git", :tag => "#{s.version}" }
 
   s.source_files = "libWeiboSDK/*.{h,m}"
-  s.vendored_libraries = 'libWeiboSDK/libWeChatSDK.a'
-  s.resource_bundles   = 'libWeiboSDK/WeiboSDK.bundle'
+  s.resource = 'libWeiboSDK/libWeChatSDK.a'
+  s.resource_bundle = 'libWeiboSDK/WeiboSDK.bundle'
 
   s.libraries = 'sqlite3', 'z'
   s.framework = 'ImageIO', 'SystemConfiguration', 'CoreText', 'QuartzCore', 'Security', 'UIKit', 'Foundation', 'CoreGraphics','CoreTelephony'
