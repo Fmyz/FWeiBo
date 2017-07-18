@@ -74,7 +74,7 @@ Pod::Spec.new do |s|
         Copyright (c) 2017 Tencent. All rights reserved.
         LICENSE
 }
-  s.author       = { "Fmyz" => "https://github.com/sinaweibosdk/weibo_ios_sdk" }
+  s.author       = { "Fmyz" => "https://cocoapods.org/pods/FWeiBoSDK" }
 
   s.platform     = :ios,'6.0'
   s.source       = { :git => "https://github.com/Fmyz/FWeiBoSDK.git", :tag => "#{s.version}" }
