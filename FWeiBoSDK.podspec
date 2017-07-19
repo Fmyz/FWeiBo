@@ -61,20 +61,20 @@
 
 Pod::Spec.new do |s|
   s.name         = "FWeiBoSDK"
-  s.version      = "0.0.1"
+  s.version      = "0.0.2"
 
   s.summary      = "微博 libWeiboSDK 3.2.0"
   s.description  = <<-DESC
        libWeiboSDK 3.2.0,方便自己更新
                    DESC
-  s.homepage     = "https://github.com/sinaweibosdk/weibo_ios_sdk"
+  s.homepage     = "https://github.com/Fmyz/FWeiBoSDK.git"
   s.license      = {
     :type => 'Copyright',
     :text => <<-LICENSE
         Copyright (c) 2017 Tencent. All rights reserved.
         LICENSE
 }
-  s.author       = { "Fmyz" => "https://cocoapods.org/pods/FWeiBoSDK" }
+  s.author       = { "Fmyz" => "https://github.com/Fmyz/FWeiBoSDK.git" }
 
   s.platform     = :ios,'6.0'
   s.source       = { :git => "https://github.com/Fmyz/FWeiBoSDK.git", :tag => "#{s.version}" }
