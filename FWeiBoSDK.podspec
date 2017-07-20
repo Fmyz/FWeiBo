@@ -71,7 +71,7 @@ Pod::Spec.new do |s|
   s.license      = {
     :type => 'Copyright',
     :text => <<-LICENSE
-        Copyright (c) 2017 Tencent. All rights reserved.
+        Copyright (c) 2017 Sina. All rights reserved.
         LICENSE
 }
   s.author       = { "Fmyz" => "https://github.com/Fmyz/FWeiBoSDK.git" }
